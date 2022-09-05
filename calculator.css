@@ -1,70 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .calculator-bg {
-  display: grid;
-  /* flex-direction: rows; */
-  min-width: 100vw;
-  min-height: 100vh;
-  /* background-image: linear-gradient (to right, #00aaff, #00ff6c); */
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
-  /* background: red; */
-  place-items: center;
-  /* justify-content: center; */
+    border: 1px dotted red;
+    background: linear-gradient(to right, pink, purple);
+    display: grid;
+    min-width: 100vw;
+    min-height: 100vh;
+    place-items: center;
 }
 
-h1 {
-  color: white;
-}
-
-.calculator-grid {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  padding: 10px;
-  background-color: black;
-  border-radius: 15px;
-  grid-template-columns: repeat(4, 100px);
-  /* grid-template-rows: minmax(120px, auto) repeat(4, 100px); */
+.calculator-grid { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 100px);
+    /* grid-template-rows: minmax(120px, auto) repeat(5, 100px); */
 }
 
 .calculator-grid > button {
-  cursor: pointer;
-  font-size: 2rem;
-  padding: 1.5rem;
-  border: 1px solid white;
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.75);
 }
+
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
+
 .span-two {
-  grid-column: span 2;
+    grid-column: span 2;
 }
+
 .output {
-  grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  word-wrap: break-word;
-  word-break: break-all;
-  /* min-height: 120px; */
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
+
 .output .previous-operand {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem; 
 }
 .output .current-operand {
-  color: white;
-  font-size: 2.5rem;
+    color: white;
+    font-size: 2.5rem;
 }
