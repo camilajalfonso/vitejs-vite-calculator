@@ -27,9 +27,15 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px dotted red; */
 }
 
 h1 {
