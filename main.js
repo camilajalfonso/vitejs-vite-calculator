@@ -3,7 +3,7 @@ import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
+  <div class="home">
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -16,7 +16,7 @@ document.querySelector('#app').innerHTML = `
       <a href="playground.html">Playground</a>
     </div>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button class="calc-button" id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
