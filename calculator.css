@@ -3,7 +3,7 @@
 }
 
 .calculator-bg {
-    border: 1px dotted red;
+    border: 1px solid rgb(76, 162, 76);
     background: linear-gradient(to right, pink, purple);
     display: grid;
     min-width: 100vw;
@@ -46,6 +46,7 @@
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
+    min-height: 120px;
 }
 
 .output .previous-operand {
