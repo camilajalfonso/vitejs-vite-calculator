@@ -1,5 +1,5 @@
-import './style.css'
-import './calculator.css'
+// import './style.css'
+// import './calculator.css'
 class Calculator{
     constructor(previousOperandTextElement, currentOperandTextElement){
         this.previousOperandTextElement = previousOperandTextElement
