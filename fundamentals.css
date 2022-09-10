@@ -5,17 +5,19 @@ font-size: 16px;
 
 h1 {
 font-size: 2rem;
+color: rgb(35, 8, 142);
 }
 
 h2 {
-font-size: 1.5rem;
-color:rgb(92, 60, 221)
+    font-size: 1.5rem;
+    color:rgb(111, 93, 181);
 }
 
-.title {
-color: rgb(154, 139, 213);
+h3 {
+    color:rgb(111, 93, 181);
+    
 }
-
 section {
     padding: 1rem 2rem;
+    max-width: 70ch;
 }
