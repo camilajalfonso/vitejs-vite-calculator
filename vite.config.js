@@ -8,7 +8,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         calculator: resolve(__dirname, 'calculator.html'),
-        playground: resolve(__dirname, 'playground.html')
+        playground: resolve(__dirname, 'playground.html'),
+        fundamentals: resolve(__dirname, 'fundamentals.html'),
       }
     }
   }
