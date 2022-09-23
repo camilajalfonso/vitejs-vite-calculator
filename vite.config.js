@@ -10,6 +10,7 @@ export default defineConfig({
         calculator: resolve(__dirname, 'calculator.html'),
         playground: resolve(__dirname, 'playground.html'),
         fundamentals: resolve(__dirname, 'fundamentals.html'),
+        triphome: resolve(__dirname, 'triphome.html'),
       }
     }
   }
