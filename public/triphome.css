@@ -1,0 +1,55 @@
+body {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+font-size: 16px;
+display: grid;
+justify-items: center;
+color: rgb(18, 63, 36);
+}
+
+h1 {
+font-size: 2rem;
+color: rgb(8, 30, 5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color:rgb(111, 93, 181);
+}
+
+h3 {
+    color:rgb(111, 93, 181);
+    
+}
+section {
+    padding: 1rem 2rem;
+    max-width: 70ch;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px dotted rgb(255, 0, 230); */
+    justify-items: center;
+    gap: 1rem;
+}
+.container {
+    max-width: 80vw;
+    justify-items: center;
+    gap: 1rem;
+}
+
+figure > img {
+    max-height: auto;
+    max-width: 100%;
+    width: auto;
+    object-fit: fill;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    text-align: center;
+}

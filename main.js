@@ -15,6 +15,7 @@ document.querySelector('#app').innerHTML = `
       <a href="/calculator.html">Calculator</a>
       <a href="/playground.html">Playground</a>
       <a href="/fundamentals.html">Fundamentals</a>
+      <a href="/triphome.html">Trip Home</a>
     </div>
     <div class="card">
       <button class="calc-button" id="counter" type="button"></button>
