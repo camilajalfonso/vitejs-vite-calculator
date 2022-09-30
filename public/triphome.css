@@ -53,3 +53,9 @@ figure {
 figcaption {
     text-align: center;
 }
+
+@media (max-width: 640px){
+    .photo-container {
+        grid-template-columns: 1fr;
+    }
+}
